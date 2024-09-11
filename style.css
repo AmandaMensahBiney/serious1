@@ -1,3 +1,47 @@
+* {margin: 0;}
+
 #colour {
     color: green;
 }
+
+.italics {
+    font-style: italic;
+   font-size: 2rem;
+   color: rgba(160, 140, 30, 0.877);
+   display: flex;
+   padding: 1rem;
+
+   
+}
+
+.color {
+    background-color: rgba(94, 12, 12, 0.849);
+    height: 5rem;
+}
+
+a{
+    text-decoration: none;
+}
+.move-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+background-color: rgb(4, 41, 4);
+height: 5rem;
+}
+
+.gold {
+    color: rgb(99, 86, 13);
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#hero {
+    background-repeat: no-repeat, repeat;
+  background-image: url(./images/basketball.png)
+  background-blend-mode: lighten;
+    height:100vh;
+}
+
+
