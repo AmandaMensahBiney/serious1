@@ -32,6 +32,7 @@ body {
   position: fixed;
   left: 0;
   right: 0;
+  z-index: 50;
 }
 
 a {
@@ -48,9 +49,12 @@ a {
 }
 
 .gold {
-  color: gray;
+  color: rgb(196, 154, 65);
   font-weight: bolder;
   font-style: oblique;
+  font-size: 1.3rem;
+  
+
 }
 
 #hero {
@@ -61,11 +65,12 @@ a {
   background-repeat: no-repeat;
   background-image: url(./naruto-folder/image.png);
   height: 100%
+  
 }
 
 .ont
 {
-  color: rgb(207, 178, 10);
+  color: rgb(243, 214, 48);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -86,36 +91,99 @@ a {
 }
 
 .progress {
-  background-image: url(./kakashi-folder/image.png);
-  height: 100%;
+  background-image: linear-gradient(to right, #9b7d80, #742122);
+  /* background-color:#9e3238 ; */
+  height: 120%;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: relative;
   overflow: hidden;
   width: 100%;
   display: flex;
   justify-content: center;
+  
 }
 
 .ant {
  display: flex;
  flex-direction: column;
  align-items: center;
- height: 140%;
+ height: 100%;
  justify-content: center;
- color: rgb(160, 151, 145);
+ color: rgba(184, 171, 163, 0.726);
  width: 80%;
  font-size: 2rem;
+ margin: 2rem;
  
 }
 
 #bold {
   font-size: 4rem;
-  color: rgb(61, 55, 20);
+  color: rgb(196, 154, 65);
   font-style: oblique;
+  margin-bottom: 2rem;
 }
 
 #gold {
-  color: rgb(63, 55, 9);
+  color: rgb(196, 154, 65);
+}
+
+#moot {
+  color: rgb(121, 47, 47);
+}
+
+.ama {
+  background-image: linear-gradient(to right, #a54850, #5a1b1c);
+  height: 100%;
+  width: 100%;
+
+ 
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#shift {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-style: oblique;
+  color: rgb(196, 154, 65);
+}
+
+#down {
+  margin-bottom: 6rem;
+  font-size: 2.5rem;
+  font-weight: 100;color: rgb(196, 154, 65);
+
+}
+
+.title {
+  color: rgb(196, 154, 65);
+  font-size: 2.3rem;
+  font-weight: 200;
+  
+}
+
+.feature-list {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  list-style-type: none;
+  border: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
 }
 
